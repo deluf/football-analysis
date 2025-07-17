@@ -1,4 +1,4 @@
-# Football analysis
+# Football analyzer
 
 ### Instructions for python's virtual enviroments
 
