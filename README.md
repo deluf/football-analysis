@@ -12,6 +12,7 @@ source YOUR_ENV_NAME/bin/activate
 ```bash
 pip install notebook opencv-python pyyaml matplotlib pandas numpy supervision ultralytics scikit-learn tqdm ipywidgets
 ```
+4. Open [src/main.iypnb](src/main.ipynb)
 
 ---
 
@@ -27,5 +28,6 @@ conda activate YOUR_ENV_NAME
 ```bash
 conda install -c conda-forge -y notebook opencv pyyaml matplotlib pandas numpy supervision ultralytics scikit-learn tqdm ipywidgets
 ```
-
+4. Open [src/main.iypnb](src/main.ipynb)
+   
 > Note: Pytorch's conda package is no longer maintained. The reccomended way of downloading it is through pip. In order to not mix up pip and conda packages in the same enviroment, we recommend installing everything with pip (steps above). You can still use conda to create and manage the virtual enviroment, then use pip to download the required packages.
